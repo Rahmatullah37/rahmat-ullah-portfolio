@@ -8,8 +8,10 @@ export interface Profile {
   highlights: string[]
   /** Path inside /public, e.g. /images/profile.jpg */
   photo: string
-  /** CSS object-position for the portrait, e.g. "center 20%" or "center top" */
+  /** CSS object-position for cropping the photo, e.g. 'center top' */
   photoPosition?: string
+  /** Short status line shown on the photo */
+  badge: string
   /** Path inside /public, e.g. /resume.pdf */
   resumeUrl: string
 }

@@ -14,6 +14,7 @@ export const profile: Profile = {
   ],
   highlights: ['Dependable engineering', 'Research-driven approach', 'Careful with data'],
   photo: '/images/profile.jpg',
-  photoPosition: 'center 35%',
+  photoPosition: 'center center',
+  badge: 'MS Software Engineering, FAST-NUCES (ongoing)',
   resumeUrl: '/resume.pdf',
 }
