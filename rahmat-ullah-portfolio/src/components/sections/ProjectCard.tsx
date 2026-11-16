@@ -1,6 +1,5 @@
-import { ExternalLink as ExternalIcon, FlaskConical, Github } from 'lucide-react'
+import { FlaskConical } from 'lucide-react'
 import type { Project } from '../../types'
-import ExternalLink from '../common/ExternalLink'
 import HighlightedText from '../common/HighlightedText'
 
 export default function ProjectCard({ project, isWide }: { project: Project; isWide: boolean }) {
