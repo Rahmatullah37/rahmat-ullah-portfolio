@@ -4,19 +4,25 @@
   simplicity, whatever colour you give them). Presets are listed at the bottom.
 */
 @theme {
-  --color-ink: #06100d;     /* page background */
-  --color-panel: #0c1a16;   /* cards and panels */
-  --color-line: #1a2f28;    /* borders and dividers */
-  --color-sand: #edf5f1;    /* main text */
-  --color-mute: #8aa69b;    /* secondary text */
-  --color-lapis: #34d399;   /* main accent (emerald) */
-  --color-aqua: #2dd4bf;    /* second accent (teal) */
+  --color-ink: #12060a; /* page background */
+  --color-panel: #1c0b12; /* cards and panels */
+  --color-line: #3a1624; /* borders and dividers */
+  --color-sand: #fdf0f3; /* main text */
+  --color-mute: #c79ba8; /* secondary text */
+  --color-lapis: #fb4d6d; /* main accent (red / rose) */
+  --color-aqua: #f472b6; /* second accent (pink) */
   --font-display: "Bricolage Grotesque", system-ui, sans-serif;
   --font-body: "Instrument Sans", system-ui, sans-serif;
 }
 
 /*
   PRESETS: copy the 7 colour lines of one preset over the lines above.
+
+  Red and pink (ACTIVE above)
+    ink #12060a  panel #1c0b12  line #3a1624  sand #fdf0f3  mute #c79ba8  lapis #fb4d6d  aqua #f472b6
+
+  Emerald and teal (previous)
+    ink #06100d  panel #0c1a16  line #1a2f28  sand #edf5f1  mute #8aa69b  lapis #34d399  aqua #2dd4bf
 
   Violet and pink
     ink #0c0814  panel #150f22  line #2a1f45  sand #f3effa  mute #a399bd  lapis #a78bfa  aqua #f472b6
