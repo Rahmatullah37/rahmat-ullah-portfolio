@@ -9,7 +9,7 @@ export default function About() {
         <div className="space-y-5 text-lg text-mute">
           {profile.biography.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </div>
-        <ul className="space-y-3 self-start rounded-2xl border border-line bg-panel p-7">
+        <ul className="card space-y-3 self-start rounded-2xl p-7">
           {profile.highlights.map((item) => (
             <li key={item} className="flex gap-3 font-semibold"><ArrowUpRight className="text-lapis" size={20} />{item}</li>
           ))}

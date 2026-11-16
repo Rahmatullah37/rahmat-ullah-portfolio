@@ -7,7 +7,10 @@ export function Timeline({ children }: { children: ReactNode }) {
 export function TimelineItem({ children }: { children: ReactNode }) {
   return (
     <li className="relative">
-      <span className="absolute -left-[2.45rem] top-2 h-3 w-3 rounded-full bg-lapis" aria-hidden="true" />
+      <span
+        className="absolute -left-[2.45rem] top-2 h-3 w-3 rounded-full bg-lapis ring-4 ring-lapis/20"
+        aria-hidden="true"
+      />
       {children}
     </li>
   )

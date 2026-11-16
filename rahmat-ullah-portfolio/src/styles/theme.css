@@ -1,11 +1,29 @@
-/* Design tokens. Change colours and fonts here only. */
+/*
+  THEME: change the whole site's colours here. Nothing else needs editing.
+  "lapis" is the main accent and "aqua" the second accent (names are kept for
+  simplicity, whatever colour you give them). Presets are listed at the bottom.
+*/
 @theme {
-  --color-ink: #0b1220;     /* page background */
-  --color-panel: #121a2b;   /* cards and panels */
-  --color-line: #223052;    /* borders and dividers */
-  --color-sand: #f2eee6;    /* main text */
-  --color-mute: #98a3bd;    /* secondary text */
-  --color-lapis: #7aa2ff;   /* accent */
+  --color-ink: #06100d;     /* page background */
+  --color-panel: #0c1a16;   /* cards and panels */
+  --color-line: #1a2f28;    /* borders and dividers */
+  --color-sand: #edf5f1;    /* main text */
+  --color-mute: #8aa69b;    /* secondary text */
+  --color-lapis: #34d399;   /* main accent (emerald) */
+  --color-aqua: #2dd4bf;    /* second accent (teal) */
   --font-display: "Bricolage Grotesque", system-ui, sans-serif;
   --font-body: "Instrument Sans", system-ui, sans-serif;
 }
+
+/*
+  PRESETS: copy the 7 colour lines of one preset over the lines above.
+
+  Violet and pink
+    ink #0c0814  panel #150f22  line #2a1f45  sand #f3effa  mute #a399bd  lapis #a78bfa  aqua #f472b6
+
+  Gold and orange
+    ink #0e0c09  panel #181510  line #2e281d  sand #f7f2e8  mute #b0a58f  lapis #fbbf24  aqua #fb923c
+
+  Original dark blue
+    ink #070b14  panel #0e1526  line #1c2742  sand #eef1f7  mute #8b97b3  lapis #6c8cff  aqua #22d3ee
+*/

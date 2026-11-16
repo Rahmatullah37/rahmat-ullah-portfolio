@@ -31,7 +31,7 @@ export default function Hero() {
             </motion.p>
             <motion.h1 {...fadeUp(0.1)} className="text-5xl font-extrabold leading-[1.02] md:text-7xl">
               {nameWords.join(' ')}{' '}
-              <span className="bg-gradient-to-r from-lapis to-sand bg-clip-text text-transparent">{lastWord}</span>
+              <span className="bg-gradient-to-r from-lapis to-aqua bg-clip-text text-transparent">{lastWord}</span>
             </motion.h1>
             <motion.p {...fadeUp(0.2)} className="mt-6 max-w-xl text-lg text-mute md:text-xl">{profile.tagline}</motion.p>
             <motion.ul {...fadeUp(0.3)} className="mt-6 flex flex-wrap gap-2">
