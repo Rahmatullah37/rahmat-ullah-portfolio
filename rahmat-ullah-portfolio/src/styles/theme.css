@@ -1,0 +1,11 @@
+/* Design tokens. Change colours and fonts here only. */
+@theme {
+  --color-ink: #0b1220;     /* page background */
+  --color-panel: #121a2b;   /* cards and panels */
+  --color-line: #223052;    /* borders and dividers */
+  --color-sand: #f2eee6;    /* main text */
+  --color-mute: #98a3bd;    /* secondary text */
+  --color-lapis: #7aa2ff;   /* accent */
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "Instrument Sans", system-ui, sans-serif;
+}

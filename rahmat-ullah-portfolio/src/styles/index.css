@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "./theme.css";
+
+html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
+body { background: var(--color-ink); color: var(--color-sand); font-family: var(--font-body); -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.02em; }
+:focus-visible { outline: 2px solid var(--color-lapis); outline-offset: 3px; border-radius: 4px; }
+
+.glow { background: radial-gradient(60% 50% at 50% 0%, rgba(122, 162, 255, 0.18), transparent 70%); }
+.marquee { animation: marquee-slide 32s linear infinite; }
+@keyframes marquee-slide { to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .marquee { animation: none; }
+}
