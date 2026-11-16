@@ -7,8 +7,8 @@ import Experience from '../components/sections/Experience'
 import Education from '../components/sections/Education'
 import Skills from '../components/sections/Skills'
 import Research from '../components/sections/Research'
-import Certifications from '../components/sections/Certifications'
-import Achievements from '../components/sections/Achievements'
+//import Certifications from '../components/sections/Certifications'
+//import Achievements from '../components/sections/Achievements'
 import Faq from '../components/sections/Faq'
 import Resume from '../components/sections/Resume'
 import Contact from '../components/sections/Contact'
@@ -26,8 +26,7 @@ export default function HomePage() {
       <Education />
       <Skills />
       <Research />
-      <Certifications />
-      <Achievements />
+      
       <Faq />
       <Resume />
       <Contact />

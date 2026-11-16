@@ -4,11 +4,13 @@ import ExternalLink from '../common/ExternalLink'
 import HighlightedText from '../common/HighlightedText'
 
 export default function ProjectCard({ project, isWide }: { project: Project; isWide: boolean }) {
+  console.log('Project:', project.title, 'Image:', project.image)
   return (
     <article className={`flex flex-col overflow-hidden rounded-3xl border border-line bg-panel transition-colors hover:border-lapis ${isWide ? 'md:col-span-2' : ''}`}>
       {project.image ? (
         <img src={project.image} alt={project.title} loading="lazy" className="h-48 w-full object-cover" />
       ) : (
+        
         <div className="flex h-40 items-center justify-center bg-gradient-to-br from-line/50 to-panel text-sm text-mute" aria-hidden="true">
           Add a screenshot in src/data/projects.ts
         </div>
@@ -21,9 +23,7 @@ export default function ProjectCard({ project, isWide }: { project: Project; isW
           {project.technologies.map((tech) => <li key={tech} className="rounded bg-ink px-2.5 py-1">{tech}</li>)}
         </ul>
         <div className="mt-5 flex flex-wrap gap-5 text-sm">
-          <ExternalLink href={project.githubUrl} label="GitHub" icon={<Github size={16} />} />
-          <ExternalLink href={project.demoUrl} label="Demo" icon={<ExternalIcon size={16} />} />
-        </div>
+         </div>
       </div>
     </article>
   )

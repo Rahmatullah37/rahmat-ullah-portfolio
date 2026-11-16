@@ -34,8 +34,7 @@ export interface Project {
   technologies: string[]
   /** Optional screenshot path inside /public, e.g. /images/projects/afis.jpg */
   image?: string
-  githubUrl: string
-  demoUrl: string
+  
   isResearch?: boolean
 }
 
